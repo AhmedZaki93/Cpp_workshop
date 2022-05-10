@@ -1,0 +1,9 @@
+# Cmakelist for WIfi module static library
+Cmake_minimum_required (VERSION 3.22)
+message(STATUS "wifi library Processing ")
+
+add_library(wifi_lib
+ wifi.cpp
+  wifi.h)
+
+  

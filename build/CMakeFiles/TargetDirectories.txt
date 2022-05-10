@@ -1,0 +1,6 @@
+D:/SWe/Cpp_workshop/build/CMakeFiles/App.dir
+D:/SWe/Cpp_workshop/build/CMakeFiles/edit_cache.dir
+D:/SWe/Cpp_workshop/build/CMakeFiles/rebuild_cache.dir
+D:/SWe/Cpp_workshop/build/wifi/CMakeFiles/wifi_lib.dir
+D:/SWe/Cpp_workshop/build/wifi/CMakeFiles/edit_cache.dir
+D:/SWe/Cpp_workshop/build/wifi/CMakeFiles/rebuild_cache.dir
