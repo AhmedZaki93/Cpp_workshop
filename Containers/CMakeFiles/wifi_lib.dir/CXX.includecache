@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amz/Swe/Cpp_workshop/wifi/wifi.cpp
+wifi.h
+/home/amz/Swe/Cpp_workshop/wifi/wifi.h
+
+/home/amz/Swe/Cpp_workshop/wifi/wifi.h
+iostream
+-
+

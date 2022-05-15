@@ -1,19 +1,24 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/amz/Swe/Cpp_workshop/Containers/Containers.cpp" "/home/amz/Swe/Cpp_workshop/build/CMakeFiles/App.dir/Containers/Containers.cpp.o"
+  "/home/amz/Swe/Cpp_workshop/Main.cpp" "/home/amz/Swe/Cpp_workshop/build/CMakeFiles/App.dir/Main.cpp.o"
+  "/home/amz/Swe/Cpp_workshop/lib/supp.cpp" "/home/amz/Swe/Cpp_workshop/build/CMakeFiles/App.dir/lib/supp.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/SWe/Cpp_workshop/Main.cpp" "CMakeFiles/App.dir/Main.cpp.obj" "gcc" "CMakeFiles/App.dir/Main.cpp.obj.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "../lib"
+  "../Containers"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "D:/SWe/Cpp_workshop/build/wifi/CMakeFiles/wifi_lib.dir/DependInfo.cmake"
+  "/home/amz/Swe/Cpp_workshop/build/Containers/CMakeFiles/Containers.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

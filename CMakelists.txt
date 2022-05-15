@@ -1,12 +1,16 @@
-Cmake_minimum_required (VERSION 3.22)
+Cmake_minimum_required (VERSION 3.16)
 
 project(Cpp_WKshop)
+set(SRC_FILES 
+   Main.cpp
+   lib/supp.cpp
+   Containers/Containers.cpp)
+add_executable(App  ${SRC_FILES})
 
-add_executable(App main.cpp)
-message(STATUS "path is ${CMAKE_SOURCE_DIR}")
-target_include_directories(App PUBLIC lib/ wifi/)
-
-add_subdirectory(${CMAKE_SOURCE_DIR}/wifi)
-target_link_libraries(App PUBLIC wifi_lib) 
-
-
+target_include_directories(App PUBLIC 
+lib/ 
+# wifi/
+                                     Containers/)
+# ${CMAKE_SOURCE_DIR}/wifi
+add_subdirectory(${CMAKE_SOURCE_DIR}/Containers)
+target_link_libraries(App PUBLIC Containers) 
